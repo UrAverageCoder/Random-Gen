@@ -1,0 +1,15 @@
+import random
+
+shoes = [
+         'nike_trainers',
+         'adidas',
+         'lebrons',
+         'loafers',
+         'timberlands',
+         'puma',
+]
+
+selected = random.choice(shoes)
+
+print("What kicks should i rock today? ")
+print(selected)
